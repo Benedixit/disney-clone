@@ -1,0 +1,28 @@
+.banner {
+    height: 87vh;
+    display: block;
+}
+
+.swiper-slide {
+    display: block;
+    object-fit: cover;
+}
+
+.feature {
+    margin-top: -7em;
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        height: 82vh;
+    }
+    .feature {
+        margin-top: 0em;
+    }
+}
+
+@media screen and (min-width: 1210px) {
+    .banner {
+        height: 87vh;
+    }
+}
